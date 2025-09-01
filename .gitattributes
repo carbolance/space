@@ -1,0 +1,13 @@
+# Normalize line endings and diffs
+* text=auto eol=lf
+
+# Improve diffs for common text formats
+*.md diff=markdown
+*.py linguist-language=Python
+
+# Treat these as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
