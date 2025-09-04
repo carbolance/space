@@ -1,6 +1,6 @@
 # Future System Development (App Vision)
 
-The knowledge_base will eventually evolve into a broader Carbolance **content & context system** — an app that connects copy, assets, and brand guidelines as a full context engine.
+The space will eventually evolve into a **content & context system** — an app that connects copy, assets, and brand guidelines as a full creative engine.
 
 ## Objectives
 - **Front-end Editor**: Rich-text + Markdown editor for non-technical teammates.
@@ -10,6 +10,6 @@ The knowledge_base will eventually evolve into a broader Carbolance **content & 
 - **Single Source of Truth**: Unify content and context for human use and AI assistance.
 
 ## Future Considerations
-- Transition from `knowledge-base` to a broader context system when appropriate.
-- Potential renaming (e.g., `knowledge-base` → `context-engine`).
+- Transition `space` to become a content & context system over an appropriate timeframe.
+- Potential renaming (e.g., `space` → `creative-engine`).
 - Graph-style data modeling to connect products, collections, campaigns, and assets.

@@ -1,37 +1,12 @@
-# Python
+# Sensible defaults for this repository
 __pycache__/
 *.py[cod]
 *.pyo
-*.pyd
-*.egg-info/
-.cache/
-.mypy_cache/
-.pytest_cache/
-.coverage*
-
-# Virtual envs
 .venv/
 venv/
-.envrc
-
-# Env files
 .env
-.env.*
-!.env.example
-
-# Editors/OS
-.DS_Store
-.idea/
+.pytest_cache/
+.mypy_cache/
 .vscode/
+.DS_Store
 
-# Builds
-build/
-dist/
-*.log
-
-# Node (in case tooling is added later)
-node_modules/
-
-# Misc
-*.swp
-*.swo

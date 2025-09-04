@@ -1,7 +1,8 @@
-# Carbolance Knowledge Base
+# Carbolance Space
+[![Validate Products](https://img.shields.io/badge/validator-products-blue)](#validation)
 
 ## Purpose
-The Carbolance Knowledge Base (carbolance/knowledge-base) is the single source of truth for brand copy, product descriptions, collections, and guidelines. It provides structure and context so that both humans and AI can retrieve and apply brand information consistently across platforms.
+The Carbolance Space (carbolance/space) is the single source of truth for brand copy, product descriptions, collections, and guidelines. It provides structure and context so that both humans and AI can retrieve and apply brand information consistently across platforms.
 
 This repository is designed to:
 - Store and organize product copy in Markdown format.
@@ -38,3 +39,4 @@ Enable the local pre-commit hook once:
 ```bash
 bash scripts/setup_git_hooks.sh
 ```
+Exit codes: 0 = OK, 1 = warnings, 2 = errors. In `--strict` mode, warnings are treated as errors.

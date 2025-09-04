@@ -1,8 +1,22 @@
 #!/usr/bin/env bash
-python3 scripts/validate_products.py --strict
-rc=$?
-if [ $rc -ne 0 ]; then
-  echo "Pre-commit validation failed. Fix issues before committing."
-  exit $rc
+set -euo pipefail
+
+# Ensure we are at the repo root
+REPO_ROOT=$(git rev-parse --show-toplevel)
+cd "$REPO_ROOT"
+
+# 1) Regenerate the ASCII tree and stage it if changed
+python3 scripts/generate_tree.py
+# Stage only if there are unstaged changes to the file
+if ! git diff --quiet -- tree_structure.md; then
+  git add tree_structure.md
+  echo "Staged updated tree_structure.md"
 fi
+
+# 2) Run product validation in strict mode
+if ! python3 scripts/validate_products.py --strict; then
+  echo "Pre-commit validation failed. Fix issues before committing."
+  exit 1
+fi
+
 exit 0
