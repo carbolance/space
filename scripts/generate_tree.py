@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Generate an ASCII tree of the repository (folders first, alphabetical) with optional one-line descriptions
-and write it to tree_structure.txt at the repo root.
+and write it to tree_structure.md at the repo root.
 
 Usage:
   python scripts/generate_tree.py
@@ -49,18 +49,18 @@ SKIP_SUFFIXES = {
 DESCRIPTIONS = {
     ".githooks/": "local git hook scripts",
     ".githooks/pre-commit": "pre-commit hook (local)",
-    "brand-guidelines/": "brand rules and assets",
-    "brand-guidelines/color-palette.md": "brand color definitions",
-    "brand-guidelines/typography.md": "type scale and usage",
-    "brand-guidelines/voice-and-tone.md": "messaging guidelines",
-    "collections/": "curated product collections",
-    "collections/essentials.md": "essentials collection page",
+    "content/brand-guidelines/": "brand rules and assets",
+    "content/brand-guidelines/color-palette.md": "brand color definitions",
+    "content/brand-guidelines/typography.md": "type scale and usage",
+    "content/brand-guidelines/voice-and-tone.md": "messaging guidelines",
+    "content/collections/": "curated product collections",
+    "content/collections/essentials.md": "essentials collection page",
     "meta/": "SEO and change history",
     "meta/changelog.md": "release notes and changes",
     "meta/seo-tags.md": "recommended SEO tags",
-    "products/": "product pages and metadata",
-    "products/premium-long-sleeve-t-shirt-midnight-black.md": "long sleeve product",
-    "products/premium-t-shirt-midnight-black.md": "short sleeve product",
+    "content/products/": "product pages and metadata",
+    "content/products/premium-long-sleeve-t-shirt-midnight-black.md": "long sleeve product",
+    "content/products/premium-t-shirt-midnight-black.md": "short sleeve product",
     "scripts/": "utility scripts and automation",
     "scripts/export_metafields.py": "export product metafields",
     "scripts/import_metafields.py": "import metafields into platform",

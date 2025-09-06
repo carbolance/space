@@ -12,6 +12,7 @@ Usage:
 Exit code 0 = all good, 1 = warnings, 2 = errors.
 """
 import sys, re, os, glob
+from pathlib import Path
 
 RE_KEBAB = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*\.md$')
 REQUIRED_H1 = re.compile(r'^#\s+', re.M)
@@ -66,15 +67,20 @@ def minimal_fields(txt):
     return errs
 
 def main(strict=False):
-    base = os.path.join(os.path.dirname(__file__), "..", "products")
-    paths = sorted(glob.glob(os.path.join(base, "*.md")))
+    repo_root = Path(__file__).resolve().parent.parent
+    # Allow overriding products location; default to content/products, fallback to products
+    content_root = os.environ.get("CONTENT_ROOT", str(repo_root / "content"))
+    candidates = [Path(content_root) / "products", repo_root / "products"]
+    prod_dir = next((p for p in candidates if p.exists()), candidates[0])
+
+    paths = sorted(glob.glob(str(prod_dir / "*.md")))
     if not paths:
-        print("No product files found in products/.")
+        print(f"No product files found in {prod_dir.relative_to(repo_root)}.")
         return 2
 
     errors, warnings = [], []
     for p in paths:
-        rel = os.path.relpath(p, start=os.path.join(os.path.dirname(__file__), ".."))
+        rel = os.path.relpath(p, start=str(repo_root))
         if not check_filename(p):
             errors.append(f"[filename] {rel} is not kebab-case")
         txt = read(p)

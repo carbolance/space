@@ -2,18 +2,21 @@
 / (root)
 ├─ .githooks/ — local git hook scripts
 │  └─ pre-commit — pre-commit hook (local)
-├─ brand-guidelines/ — brand rules and assets
-│  ├─ color-palette.md — brand color definitions
-│  ├─ typography.md — type scale and usage
-│  └─ voice-and-tone.md — messaging guidelines
-├─ collections/ — curated product collections
-│  └─ essentials.md — essentials collection page
+├─ content/
+│  ├─ brand-guidelines/ — brand rules and assets
+│  │  ├─ color-palette.md — brand color definitions
+│  │  ├─ typography.md — type scale and usage
+│  │  └─ voice-and-tone.md — messaging guidelines
+│  ├─ collections/ — curated product collections
+│  │  └─ essentials.md — essentials collection page
+│  ├─ products/ — product pages and metadata
+│  │  ├─ premium-long-sleeve-t-shirt-midnight-black.md — long sleeve product
+│  │  └─ premium-t-shirt-midnight-black.md — short sleeve product
+│  ├─ apparel-marketing.md
+│  └─ overall-marketing.md
 ├─ meta/ — SEO and change history
 │  ├─ changelog.md — release notes and changes
 │  └─ seo-tags.md — recommended SEO tags
-├─ products/ — product pages and metadata
-│  ├─ premium-long-sleeve-t-shirt-midnight-black.md — long sleeve product
-│  └─ premium-t-shirt-midnight-black.md — short sleeve product
 ├─ scripts/ — utility scripts and automation
 │  ├─ export_metafields.py — export product metafields
 │  ├─ generate_tree.py — generate this ASCII tree
