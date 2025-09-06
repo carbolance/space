@@ -1,7 +1,7 @@
 # Premium T-Shirt | Midnight Black
 
 ## Tagline
-Essentials for the modern world.
+Premium essentials for the modern world.
 
 ## Description
 Sculpted around the arms & shoulders, this modern essential balances comfort and performance. The sustainable tri-blend of modal, organic cotton, and recycled polyester delivers everyday durability with a luxurious feel — ideal for lounging, training, and everything in between.
@@ -9,7 +9,9 @@ Sculpted around the arms & shoulders, this modern essential balances comfort and
 ## Features
 - Sculpted around the arms & shoulders
 - Streamlined silhouette with a tapered waist
+- Extended length for a modern streetwear-inspired style
 - Durable tri-blend fabric (modal, organic cotton, recycled polyester)
+- Luxurious feel with everyday performance
 - Soft, breathable comfort
 - Moisture-wicking & temperature-regulating
 - Wrinkle-resistant & shrink-resistant

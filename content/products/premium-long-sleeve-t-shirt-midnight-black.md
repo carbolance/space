@@ -1,7 +1,7 @@
 # Premium Long-Sleeve T-Shirt | Midnight Black
 
 ## Tagline
-Essentials for the modern world.
+Premium essentials for the modern world.
 
 ## Description
 Sculpted around the arms & shoulders with a contoured fit through the body, this modern long-sleeve essential balances comfort and performance. Crafted from a sustainable tri-blend of modal, organic cotton, and recycled polyester, it delivers durability with a luxurious feel. Designed for lounging, working out, and everything in between — a versatile piece for the modern wardrobe.
@@ -11,6 +11,7 @@ Sculpted around the arms & shoulders with a contoured fit through the body, this
 - Streamlined silhouette with a tapered waist
 - Extended length for a modern streetwear-inspired style
 - Durable tri-blend fabric (modal, organic cotton, recycled polyester)
+- Luxurious feel with everyday performance
 - Soft, breathable comfort
 - Moisture-wicking & temperature-regulating
 - Wrinkle-resistant & shrink-resistant
