@@ -13,7 +13,7 @@ Optional:
 Map Markdown -> metafields by editing FIELD_MAP below.
 
 Usage:
-    python scripts/import_metafields.py --handle premium-long-sleeve-t-shirt-midnight-black-classic --file content/products/premium-long-sleeve-t-shirt-midnight-black.md
+    python scripts/import_metafields.py --handle long-sleeve-t-shirt-midnight-black --file library/products/long-sleeve-t-shirt-midnight-black.md
 """
 import os, sys, argparse, re, json
 from pathlib import Path
@@ -77,9 +77,9 @@ def main():
         print("Missing SHOPIFY_STORE or SHOPIFY_ACCESS_TOKEN env vars.", file=sys.stderr)
         sys.exit(2)
 
-    # Resolve file path; if relative and exists under content/products, use that default root
+    # Resolve file path; if relative and exists under library/products, use that default root
     repo_root = Path(__file__).resolve().parent.parent
-    content_root = Path(os.environ.get("CONTENT_ROOT", repo_root / "content"))
+    content_root = Path(os.environ.get("CONTENT_ROOT", repo_root / "library"))
     file_path = Path(args.file)
     if not file_path.is_absolute():
         candidate = content_root / file_path

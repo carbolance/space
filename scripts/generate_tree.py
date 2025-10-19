@@ -49,18 +49,19 @@ SKIP_SUFFIXES = {
 DESCRIPTIONS = {
     ".githooks/": "local git hook scripts",
     ".githooks/pre-commit": "pre-commit hook (local)",
-    "content/brand-guidelines/": "brand rules and assets",
-    "content/brand-guidelines/color-palette.md": "brand color definitions",
-    "content/brand-guidelines/typography.md": "type scale and usage",
-    "content/brand-guidelines/voice-and-tone.md": "messaging guidelines",
-    "content/collections/": "curated product collections",
-    "content/collections/essentials.md": "essentials collection page",
-    "meta/": "SEO and change history",
-    "meta/changelog.md": "release notes and changes",
-    "meta/seo-tags.md": "recommended SEO tags",
-    "content/products/": "product pages and metadata",
-    "content/products/premium-long-sleeve-t-shirt-midnight-black.md": "long sleeve product",
-    "content/products/premium-t-shirt-midnight-black.md": "short sleeve product",
+    "library/": "brand knowledge library",
+    "library/brand/": "brand rules and assets",
+    "library/brand/colors.md": "brand color definitions",
+    "library/brand/typography-and-fonts.md": "type scale and usage",
+    "library/brand/voice-and-tone.md": "messaging guidelines",
+    "library/collections/": "curated product collections",
+    "library/products/": "product pages and metadata",
+    "library/products/long-sleeve-t-shirt-midnight-black.md": "long sleeve product",
+    "library/products/t-shirt-midnight-black.md": "short sleeve product",
+    "library/seo/": "SEO related snippets and tags",
+    "library/seo/seo-tags.md": "recommended SEO tags",
+    "library/assets/": "asset sources, exports & templates",
+    "library/assets/IMAGE_METADATA_TEMPLATE.md": "image metadata template",
     "scripts/": "utility scripts and automation",
     "scripts/export_metafields.py": "export product metafields",
     "scripts/import_metafields.py": "import metafields into platform",
@@ -73,6 +74,7 @@ DESCRIPTIONS = {
     ".gitattributes": "repository attributes for Git",
     ".gitignore": "files and folders excluded from Git",
     "APP_VISION.md": "product vision and goals",
+    "CHANGELOG.md": "release notes and changes",
     "CONTRIBUTING.md": "contribution guidelines",
     "README.md": "project overview and quick start",
     "tree_structure.md": "this ASCII tree (generated)",
@@ -125,7 +127,7 @@ def generate() -> str:
     body = render_tree(ROOT)
     tree_text = "\n".join([header] + body) + "\n"
     # Wrap in Markdown code fences for readability
-    return "```plaintext\n" + tree_text + "```\n"
+    return "# Tree Structure\n\n" + "```plaintext\n" + tree_text + "```\n"
 
 
 def main() -> None:

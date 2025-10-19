@@ -1,0 +1,23 @@
+# Website To Do List
+
+* [ ] Landing Page
+  * [ ] Lifestyle imagery
+    * [ ] Models wearing the products while connected to nature
+  * [ ] Provide a great offer subtly (not too salesy)
+* [ ] Updated product imagery
+  * [ ] Define a consistent look (color) with a white background
+  * [ ] Product on white (vignette style with #FFF at the edges)
+* [ ] Updated product copywriting
+  * [ ] Shift emphasis from balance to focus on **activewear**
+    * [ ] Designed for physical activity (clear, distinct focus)
+    * [ ] Specifically crafted for **everyday performance**
+      * [ ] Bridge athletic performance and everyday fashion
+    * [ ] Emphasize functionality and technical features (e.g., moisture wicking)
+    * [ ] Balance style, comfort, and performance
+    * [ ] Suitable for both working out and lounging
+  * [ ] Position for loungewear collection
+* [ ] Updated About Us
+  * [ ] Create & Design
+    * [ ] We are at the forefront of design, always creating
+  * [ ] Highlight sustainable operations and constraints that enable exploration
+    * [ ] Imagine the possibilities of a brighter future

@@ -68,12 +68,14 @@ def minimal_fields(txt):
 
 def main(strict=False):
     repo_root = Path(__file__).resolve().parent.parent
-    # Allow overriding products location; default to content/products, fallback to products
-    content_root = os.environ.get("CONTENT_ROOT", str(repo_root / "content"))
+    # Allow overriding products location; default to library/products, fallback to products (legacy)
+    content_root = os.environ.get("CONTENT_ROOT", str(repo_root / "library"))
     candidates = [Path(content_root) / "products", repo_root / "products"]
     prod_dir = next((p for p in candidates if p.exists()), candidates[0])
 
     paths = sorted(glob.glob(str(prod_dir / "*.md")))
+    # Ignore non-product docs in products folder
+    paths = [p for p in paths if os.path.basename(p) != "README.md"]
     if not paths:
         print(f"No product files found in {prod_dir.relative_to(repo_root)}.")
         return 2

@@ -1,10 +1,18 @@
 # Apparel Marketing
 
+## Marketing → Media & Aesthetics
+
+### Shorts: Nature + Nostalgia (Anime / Grain)
+
+Add a pleasant **vintage** static TV effect to Shorts with ambient motion
+
 ## Marketing → Quality + Luxury
 
 ### Generate visuals with a nostalgic aesthetic involving imagination
 
-### Highlights
+## Highlights
+
+### Feel good from dawn to dusk
 
 * SOFT  
 * COZY  
@@ -13,16 +21,18 @@
 * QUALITY  
 * LUXURY
 
-### Garment Properties
+### Garment (Properties)
 
-* Soft  
-* Stretchy  
-* Breathable  
-* Moisture-wicking  
-* Wrinkle-resistant  
+* Soft
+  * Get comfortable outside your comfort zone
+* Stretchy
+* Breathable
+* Moisture-wicking
+  * Absorb using capillary action (draw, pull, suck, wick)
+* Wrinkle-resistant
 * Shrink-resistant
 
-French Terry & Fleece (Original Favorites & Stanley/Stella)
+### French Terry & Fleece (Original Favorites & Stanley/Stella)
 
 * Pullover Sweatshirt / Pullover Hoodie / Zipper Hoodie  
 * Sweatpants / Sweatshorts

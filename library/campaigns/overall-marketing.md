@@ -1,5 +1,9 @@
 # Overall Marketing
 
+## Modern yet Vintage
+
+Express the timeless nostalgia of Nature through contemporary media technology
+
 ## Be Iconic
 
 ### Bold Yet Subtle → don’t overthink & don’t overexplain
@@ -18,7 +22,7 @@
 * Controversial (sustainability without sacrifice or being judgmental / obnoxious)  
 * Meaningful (we live in our clothing & we deserve the best)
 
-Ads
+### Ads
 
 * Hook your audience (3 \- 5 seconds)  
 * **Have them understand the product within 5 seconds**  
@@ -31,7 +35,7 @@ Ads
   * 1 targeted ad campaign and 1 broad campaign  
 * Analyze data for video ads (beyond ROAS & sales)
 
-Marketing Advice & Knowledge
+### Marketing Advice & Knowledge
 
 * Marketing is the top skill for DTC ecommerce (digital marketing businesses)  
 * Marketing is about building trust & rapport  

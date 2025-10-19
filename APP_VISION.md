@@ -1,14 +1,18 @@
 # Future System Development (App Vision)
-The **space** will eventually evolve into a larger **content and context system** — an app that connects copy, assets, and brand guidelines as a full creative engine (with full Git-based version control).
+
+This `space` will evolve into a **content and context system** — an app that connects copy (e.g. brand) and assets as a full creative engine.
+
+Git-based version control will support the system by structuring copy as it relates to assets.
 
 ## App Functionality Objectives
-- **Front-end Editor**: Simple rich-text + Markdown editor for non-technical teammates.
-- **Guideline Integration**: Built-in Carbolance brand voice rules, approved language, and formatting.
-- **Contextual Retrieval**: Store not just content but relationships (a context graph).
-- **Shopify Sync**: Direct integration to update product metafields automatically.
-- **Single Source of Truth**: Unify content and context for AI and human use.
+
+* **Front-end Editor**: Simple rich-text + Markdown editor for non-technical teammates.
+* **Guideline Integration**: Built-in brand rules, approved language, and formatting.
+* **Contextual Retrieval**: Store not just content but relationships (a context graph).
+* **Shopify Sync**: Direct integration to update product metafields automatically.
+* **Single Source of Truth**: Unify content and context for AI and human use.
 
 ## Future Considerations
-- Transition `space` to become a content and context system over an appropriate timeframe.
-- Potential renaming (e.g., `space` → `creative-engine`).
-- Graph-style data modeling to connect products, collections, campaigns, and assets.
+
+* Evolve `space` to become a content and context system (a.k.a. `creative-engine`).
+* Graph-style data modeling to connect assets, campaigns, collections, and products.
